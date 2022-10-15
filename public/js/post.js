@@ -13,8 +13,7 @@ const newPostHandler = async (event) => {
         "Content-Type": "application/json",
       },
     });
-    console.log(title);
-    console.log(post_content);
+
     if (response.ok) {
       // document.location.replace("/");
     } else {
